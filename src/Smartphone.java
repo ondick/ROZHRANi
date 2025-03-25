@@ -11,4 +11,7 @@ public class Smartphone implements IPrehravac {
             System.out.println("Prehravani na mobilu "+model+" MP3 ukončeno");
         }
     }
+    public String toString() {
+        return "" + model;
+    }
 }

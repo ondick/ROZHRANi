@@ -11,4 +11,8 @@ public class MP3 implements IPrehravac{
             System.out.println("Prehravani MP3 zarizeni znacky "+znacka+" MP3 ukončeno");
         }
     }
+
+    public String toString() {
+        return "" + znacka;
+    }
 }
